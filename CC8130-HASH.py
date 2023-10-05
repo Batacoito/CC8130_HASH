@@ -12,7 +12,11 @@ print("MD5 = " + MD5_certo)
 
 if (SHA256_teorico == SHA256_certo):
     print("SHA256 certo")
+else:
+    print("SHA256 incorreto");
 if (MD5_certo == MD5_teorico):
     print("MD5 certo")
+else:
+    print("MD5 incorreto");
 
 
